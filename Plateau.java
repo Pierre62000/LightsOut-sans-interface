@@ -1,14 +1,13 @@
 import java.util.Arrays;
 
-public class Plateau {
+public abstract class Plateau {
     //attributs
     protected Case[][] grille;
+
 
     //getter & setter
 
     //methodes perso
-
-
 
 
     @Override
@@ -23,6 +22,6 @@ public class Plateau {
      * @return
      */
     public String afficherPlateau(){
-        return null;
+        return toString();
     }
 }
